@@ -19,7 +19,8 @@ appveyor = { repository = "quininer/tokio-rustls" }
 smallvec = "0.6"
 tokio-io = "=0.2.0-alpha.6"
 futures-core-preview = "=0.3.0-alpha.19"
-rustls = "0.16"
+rustls = { path = "../rustls/rustls" }
+# rustls = "0.16"
 webpki = "0.21"
 
 [features]
