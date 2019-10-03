@@ -18,8 +18,9 @@ appveyor = { repository = "quininer/futures-rustls" }
 [dependencies]
 smallvec = "0.6"
 futures = { package = "futures-preview", version = "0.3.0-alpha.16" }
-rustls = "0.15"
-webpki = "0.19"
+rustls = { path = "../rustls/rustls" }
+# rustls = "0.15"
+webpki = "0.21"
 
 [features]
 early-data = []
